@@ -72,4 +72,6 @@ PRIMARY KEY (idEndereco),
   foreign key(idFuncionario_fk) references funcionarios(idFuncionario),
   foreign key(idDependentes_fk) references dependentes(idDependentes)
 );
+alter table telefone
+modify column DDD char(4)
 */
